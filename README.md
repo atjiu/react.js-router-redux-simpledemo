@@ -13,3 +13,4 @@ yarn start
 
 ## 预览
 
+![](./demo.gif)
