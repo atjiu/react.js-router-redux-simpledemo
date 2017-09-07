@@ -1,0 +1,59 @@
+@import url('./loading.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 0 10px;
+  line-height: 35px;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.app {
+}
+
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #888;
+  color: #fff;
+}
+header>div {
+  width: 1000px;
+  padding: 10px;
+  margin: 0 auto;
+}
+section {
+  margin: 50px auto 0 auto;
+  width: 1000px;
+  border: 1px solid #000;
+  flex: 1;
+  overflow-y: auto;
+}
+.load-more {
+  text-align: center;
+  padding: 10px;
+  background-color: #888;
+}
+
+.detail {
+  padding: 10px;
+}
